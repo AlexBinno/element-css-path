@@ -27,7 +27,7 @@ Example:
 ```
 
 ```javascript
-$("#sidebar").elementCSSPath();
+$("#sidebar").elementCssPath();
 // returns: html body div#wrapper div#content div#sidebar
 ```
 
@@ -55,7 +55,7 @@ Example:
 ```
 
 ```javascript
-ElementCSSPath(document.getElementById("sidebar"));
+ElementCssPath(document.getElementById("sidebar"));
 // returns: html body div#wrapper div#content div#sidebar
 ```
 
