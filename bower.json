@@ -1,0 +1,13 @@
+{
+  name: 'element-css-path',
+  version: '0.0.1',
+  description: 'Javascript library and jQuery plugin for determining the CSS path of an HTML DOM element.',
+  license: 'MIT',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ]
+}

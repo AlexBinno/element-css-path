@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEST</title>
+<!-- <script type="text/javascript" src="../element-css-path.min.js"></script> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="../jquery.element-css-path.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	//alert( ElementCssPath(document.getElementById('content')) );
+	alert( $("#sidebar").elementCssPath() );
+});
+
+</script>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="content">
+        <div id="sidebar">
+            get the path of this!
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
